@@ -189,7 +189,7 @@ class WeatherApp extends React.Component
 
  //full path used to prevent bug with a refresh on a /city/:id
  //causing fetch to be http://localhost:3000/city/city.list.min.json
-fetch("http://localhost:3000/city.list.min.json")
+fetch("city.list.min.json", { headers: {'Content-Type': 'application/json', 'Accept': 'application/json'} } )
 .then(data=>data.json())
 .then( (data) => {
     data.forEach((cityJSON)=>{
