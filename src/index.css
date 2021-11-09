@@ -1,0 +1,31 @@
+body {
+    background-color: white;
+}
+
+
+/* Navbar styles */
+.navbar {
+    background-color: rgb(245, 197, 38);
+}
+
+/* Dropdown menu item styling */
+.item-container, .visited-city-item, .visited-city-item:visited {
+    background-color: white;
+    font-weight: 600;
+    color: black;
+}
+
+/* Dropdown menu item hover/active styling */
+.visited-city-item:active, .visited-city-item:hover {
+    background-color: lightsteelblue;
+}
+/* Navbar styles */
+
+/* The content div */
+.content {
+    margin: 30px auto;
+    text-align: center;
+    width: 80%;
+}
+
+

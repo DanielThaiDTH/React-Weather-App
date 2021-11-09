@@ -1,0 +1,59 @@
+/* The div that holds the page content */
+.city-info {
+    margin: 30px auto;
+}
+
+/* Flag image formatting */
+.flag {
+    height: 18px;
+    width: 27px;
+    margin-bottom: 4px;
+}
+
+/* The city name style */
+.city {
+    font-size: 1.2em;
+}
+
+/* Weather image sizing */
+.weather-img {
+    height: 100px;
+    width: 100px;
+}
+
+/* Main temperature text */
+#temp {
+    font-size: 2em;
+    font-weight: bold;
+    color: darkgoldenrod;
+}
+
+/* Panel open/close indicator */
+.indicator {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+/* Detailed weather information paragraphs */
+.card-body p {
+    margin: 0 auto;
+    padding: 10px 10px;
+}
+
+/* Alternate paragraph colours for clarity */
+.card-body p:nth-of-type(2n+1) {
+    background-color: gainsboro;
+}
+/* Detailed weather information paragraphs */
+
+/* Bolds the text in the page navigation */
+.page-item {
+    font-weight: bold;
+    color: black;
+}
+
+/* Page link click colour */
+ul li.page-item.active, ul li.page-item a:active{
+    background-color: orange !important;
+}

@@ -1,0 +1,46 @@
+/*********************** Search field styles ************************/
+.search {
+    height: 20vh; /* The height of the search form background */
+    margin: 0;
+    background-color:  rgb(238, 144, 29);
+}
+
+.search form {
+    margin: 0;
+    top: 40%;
+    position: relative;
+    max-height: fit-content;
+}
+
+.search-field {
+    margin-right: 0;
+    margin-left: 10%;
+    padding-right: 0;
+    padding-left: 8px;
+    float: left;
+    height: 40px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    outline-width: 0;
+}
+
+/** The search button **/
+.search-button {
+    background-color: rgb(224, 104, 5);
+    border-color: rgb(189, 86, 1);
+    margin-left: 0;
+    padding-top: 3px;
+    float: left;
+    height: 40px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+/* Darker color for hovering, active  and focus */
+.search-button:hover, .search-button:active, .search-button:focus {
+    background-color: rgb(184, 71, 6);
+    border-color: rgb(160, 61, 4);
+}
+/** The search button **/
